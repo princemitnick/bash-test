@@ -1,7 +1,7 @@
 ---
 - hosts: ubuntu
   user: jenkins
-  become: True
+  become: yes
   tasks:
   - name: install bind9
     apt:
