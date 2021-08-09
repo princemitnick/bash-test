@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo -S test  apt-get update
+apt-get update
 
 

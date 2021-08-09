@@ -1,0 +1,9 @@
+---
+- hosts: ubuntu
+  user: prince
+  become: True
+  tasks:
+  - name: install bind9
+    apt:
+      name: bind9
+      state: latest
