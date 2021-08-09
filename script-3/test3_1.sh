@@ -2,6 +2,6 @@
 
 echo "CPU info"
 
-cat /proc/cupinfo
+cat /proc/cpuinfo
 
 echo "END!"
