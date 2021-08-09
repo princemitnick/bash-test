@@ -1,6 +1,6 @@
 ---
 - hosts: ubuntu
-  user: prince
+  user: jenkins
   become: True
   tasks:
   - name: install bind9
